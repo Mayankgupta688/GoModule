@@ -1,0 +1,16 @@
+Creating Module: "go mod init github.com/mayank/gomodule
+
+Getting Dependencies: go get -u github.com/gorilla/mux
+
+Listing Dependencies: go list
+
+Listing Dependencies with Version Info: go list -m all
+
+Verifying Loaded Dependencies for some Hacking: go mod verify
+
+Removing Unused Dependencies: go mod tidy
+
+Building Module: go build
+
+Cached Module File Path: "GOPATH"/pkg/mod
+
